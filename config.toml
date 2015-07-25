@@ -1,0 +1,6 @@
+baseurl = "http://boxcounter.com/"
+languageCode = "en-us"
+title = "Boxcounter的烂笔头"
+pygmentsuseclasses = false
+pygmentsstyle = "vs"
+theme = "hugo-bootswatch"
