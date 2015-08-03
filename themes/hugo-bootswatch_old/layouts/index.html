@@ -2,10 +2,11 @@
 {{ partial "navbar.html" . }}
 
     <div class="container">
+
         {{ range .Data.Pages }}
-        <div class="post-list">
-            <h5><a href="{{ .Permalink }}">{{ .Title }} </a></h5>
-            <time class="post-list-time">{{ .Date.Format "2006-01-02" }}</time>
+        <div class="clearfix">
+          <h5 class="pull-left"><a href="{{ .Permalink }}">{{ .Title }} </a></h5>
+          <time class="pull-right post-list">{{ .Date.Format "2006-01-01" }}</time>
         </div>
         {{ end }}
 

@@ -3,14 +3,13 @@
 
     <div class="container">
         <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <hr />
-        <span class="post-time">{{ .Date.Format "2006-01-02" }}</span>
+        <span class="lead">{{ .Date.Format "2006-01-01" }}</span>
         <div class="post">
             {{ .Content }}
         </div>
 
         {{ partial "container-footer.html" . }}
-
+ 
      </div>
-
+     
 {{ partial "footer.html" . }}

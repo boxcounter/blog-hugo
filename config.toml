@@ -1,5 +1,5 @@
 baseurl = "http://boxcounter.com/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "Boxcounter的烂笔头"
 pygmentsuseclasses = false
 pygmentsstyle = "vs"
