@@ -93,7 +93,16 @@ Overdraw是常见性能损耗点，且多是无谓的性能损耗。相关资料
 
 后者的缺点是.9图可能因为拉伸变得不够清晰，但实测下来效果满足需要。
 
-### 四、预处理
+### 四、改进布局
+
+常用的方法有：
+
+- 在不增加布局层次及复杂度的前提下，用LinearLayout替换RelativeLayout；
+- 减少LinearLayout.layout_weight属性的使用，分享一下项目中一个LinearLayout的实际数据：
+    - 使用layout_weight，measure耗时5.86ms；
+    - 弃用layout_weight，measure耗时2.28ms；
+
+### 五、预处理
 
 需要引入一点业务数据结构来辅助说明。
 
@@ -138,11 +147,11 @@ class PreprocessResult {
 
 这种方法的缺点是增加了复杂度：PreprocessResult需要和Topic保持同步更新。比如用户点赞、发表评论之后，需要同步修改PreprocessResult和Topic。
 
-### 五、预创建
+### 六、预创建
 
 分析发现，滚动过程会因为动态创建TopicView而卡顿。TopicView是用来显示整个主题的自定义View，包含前述的赞和评论等子布局。即便经过精简，整个布局依然比较复杂，inflate过程很耗时。于是预先创建了一些TopicView备用，在`onCreateViewHolder()`中尽量使用它们，如果备用已经用完再动态创建。
 
-### 六、优化TextView
+### 七、优化TextView
 
 经过上述这几步优化之后，流畅度提升了很多，但偶尔还是会出现较明显的卡顿现象。分析发现是`TextView.setText()`耗时过长导致的，在高强度测试下（长文主题，并且有很多评论），平均一次长文的调用就可能耗时22ms，已经超过了保证帧率的16ms上限。
 
