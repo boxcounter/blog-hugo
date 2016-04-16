@@ -1,0 +1,11 @@
+---
+layout: post
+title:  《经济学原理：微观经济学》读书笔记
+date:   2016-04-16
+category: reading
+---
+
+<img src="/images/2016-04-16/经济学原理：微观经济学.png"/>
+
+---
+源文件：[经济学原理：微观经济学.mindnode](https://github.com/boxcounter/boxcounter.github.io/raw/master/attachments/2016-04-16/%e7%bb%8f%e6%b5%8e%e5%ad%a6%e5%8e%9f%e7%90%86%ef%bc%9a%e5%be%ae%e8%a7%82%e7%bb%8f%e6%b5%8e%e5%ad%a6.mindnode.zip)
