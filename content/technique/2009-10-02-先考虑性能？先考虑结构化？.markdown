@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  先考虑性能？先考虑结构化？
-date:   2009-10-02
-category: tech
+layout          : post
+title           : "先考虑性能？先考虑结构化？"
+date            : 2009-10-02
+tags            : ["技术思考"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 在《代码大全》上看到一段话，正是我近来经常纠结的一个问题：编码的时候，是优先考虑性能，还是优先考虑结构化？

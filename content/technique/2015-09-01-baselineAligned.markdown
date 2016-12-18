@@ -1,10 +1,10 @@
 ---
-layout: technique
-title:  baselineAligned属性
-date:   2015-09-01
-tags:
-        - Android
-category: tech
+layout          : technique
+title           : "baselineAligned属性"
+date            : 2015-09-01
+tags            : ["Android"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 

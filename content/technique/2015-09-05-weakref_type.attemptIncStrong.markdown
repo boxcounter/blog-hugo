@@ -1,10 +1,10 @@
 ---
-layout: technique
-title:  RefBase::weakref_type::attemptIncStrong的理解
-date:   2015-09-05
-tags:
-        - Android
-category: tech
+layout          : technique
+title           : RefBase::weakref_type::attemptIncStrong的理解
+date            : 2015-09-05
+tags            : ["Android"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 见中文注释内容：

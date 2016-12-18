@@ -1,12 +1,10 @@
 ---
-layout: post
-title:  "SEH分析笔记（X86篇）"
-date:   2011-10-19
-tags:
-    - SEH
-    - x86
-categories:
-    - tech
+layout          : post
+title           : "SEH分析笔记（X86篇）"
+date            : 2011-10-19
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 v1.0.2

@@ -5,6 +5,13 @@
         <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <hr />
         <span class="post-time">{{ .Date.Format "2006-01-02" }}</span>
+
+        {{if .TableOfContents}}
+            <div id="toc" class="well">
+                {{.TableOfContents}}
+            </div>
+        {{end}}
+
         <div class="post">
             {{ .Content }}
         </div>

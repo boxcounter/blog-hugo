@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  "隔栏、断言、防御型和攻击型编程的思考"
-date:   2014-01-12
-category: tech
+layout          : post
+title           : "隔栏、断言、防御型和攻击型编程的思考"
+date            : 2014-01-12
+tags            : ["技术思考"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 

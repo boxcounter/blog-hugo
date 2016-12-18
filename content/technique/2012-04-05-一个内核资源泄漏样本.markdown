@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  一个内核资源泄漏样本（待更新文中链接）
-date:   2012-04-05
-category: tech
+layout          : post
+title           : 一个内核资源泄漏样本（待更新文中链接）
+date            : 2012-04-05
+tags            : ["故障分析"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 开发过程中，我习惯会一直开着verifier进行测试，绝大部分非逻辑错误都能被揪出来。  

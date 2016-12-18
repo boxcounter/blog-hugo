@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  VS2010编译regex库的问题
-date:   2012-05-31
-category: tech
+layout          : post
+title           : VS2010编译regex库的问题
+date            : 2012-05-31
+tags            : ["故障分析"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 　　今天把一些VS 2005工程升级到VS 2010，在升级过程中，遇到regex库编译错误。如下：

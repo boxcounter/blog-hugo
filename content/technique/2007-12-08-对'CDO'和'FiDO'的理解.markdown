@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  对'CDO'和'FiDO'的理解
-date:   2007-12-08
-category: tech
+layout          : post
+title           : "对'CDO'和'FiDO'的理解"
+date            : 2007-12-08
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 下面是我对于CDO、FiDO的理解，不一定正确，但是还是记录下来，以后学习清楚来再来修正。

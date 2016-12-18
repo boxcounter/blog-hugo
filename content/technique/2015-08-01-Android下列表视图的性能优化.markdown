@@ -1,18 +1,17 @@
 ---
-layout: technique
-title:  Android下列表视图的性能优化
-date:   2015-08-01
-tags:
-        - Android
-        - Performance
-category: tech
+layout          : technique
+title           : "Android下列表视图的性能优化"
+date            : 2015-08-01
+tags            : ["Android"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
-## 前言
+# 前言
 
 Android下使用列表控件，如`RecyclerView`和`ListView`，很容易遇到滚动不流畅的问题。本文记录我的一次性能优化过程。
 
-## 常见范式
+# 常见范式
 
 我们经常这样使用列表控件：
 
@@ -21,15 +20,15 @@ Android下使用列表控件，如`RecyclerView`和`ListView`，很容易遇到�
 
 这个范式用了一种优化技术：View重用。避免了频繁的create view和find view过程，这两个过程都是很耗时的。但仅这一种优化手段不足以解决所有的性能问题。
 
-## 优化过程
+# 优化过程
 
 接下来，我将基于一个实际项目的简化版来说明如何进行优化。
 
-### 一、减少Overdraw
+## 一、减少Overdraw
 
 Overdraw是常见性能损耗点，且多是无谓的性能损耗。相关资料非常丰富，这里不赘述。只提醒一点：善用`Window.setBackgroundDrawable*()`。
 
-### 二、内存优化
+## 二、内存优化
 
 优化内存使用也是一种常用的性能优化手段。它的机理是：GC会暂停所有线程，而频繁触发GC会加剧掉帧问题。
 
@@ -39,7 +38,7 @@ Overdraw是常见性能损耗点，且多是无谓的性能损耗。相关资料
 
 优化方法是：尽量缓存、重用ImageView。比如：在`onBindViewHolder()`中发现图片矩阵控件中已经包含了7个ImageView（上次该控件显示的主题有7张图片），当前要显示的主题有5张图片，那么直接重用前5个ImageView，隐藏剩下的2个ImageView。
 
-### 三、精简布局
+## 三、精简布局
 
 来看一下主题的赞和评论区域。其中赞区域会有两种展现形式（针对不同的应用场景）。想想如果是你来实现，会怎么布局。
 
@@ -93,7 +92,7 @@ Overdraw是常见性能损耗点，且多是无谓的性能损耗。相关资料
 
 后者的缺点是.9图可能因为拉伸变得不够清晰，但实测下来效果满足需要。
 
-### 四、改进布局
+## 四、改进布局
 
 常用的方法有：
 
@@ -102,7 +101,7 @@ Overdraw是常见性能损耗点，且多是无谓的性能损耗。相关资料
     - 使用layout_weight，measure耗时5.86ms；
     - 弃用layout_weight，measure耗时2.28ms；
 
-### 五、预处理
+## 五、预处理
 
 需要引入一点业务数据结构来辅助说明。
 
@@ -147,11 +146,11 @@ class PreprocessResult {
 
 这种方法的缺点是增加了复杂度：PreprocessResult需要和Topic保持同步更新。比如用户点赞、发表评论之后，需要同步修改PreprocessResult和Topic。
 
-### 六、预创建
+## 六、预创建
 
 分析发现，滚动过程会因为动态创建TopicView而卡顿。TopicView是用来显示整个主题的自定义View，包含前述的赞和评论等子布局。即便经过精简，整个布局依然比较复杂，inflate过程很耗时。于是预先创建了一些TopicView备用，在`onCreateViewHolder()`中尽量使用它们，如果备用已经用完再动态创建。
 
-### 七、优化TextView
+## 七、优化TextView
 
 经过上述这几步优化之后，流畅度提升了很多，但偶尔还是会出现较明显的卡顿现象。分析发现是`TextView.setText()`耗时过长导致的，在高强度测试下（长文主题，并且有很多评论），平均一次长文的调用就可能耗时22ms，已经超过了保证帧率的16ms上限。
 
@@ -210,7 +209,7 @@ class PreprocessResult {
 
 优化后，在高强度测试环境下，平均帧率从34上升至47。实际环境中的平均帧率约为51。
 
-## 总结
+# 总结
 
 整个优化过程的核心思想是：
 
@@ -223,7 +222,7 @@ class PreprocessResult {
 2. 缓存数据越多，OOM的风险越大；
 3. 增加了复杂度；
 
-## 后记
+# 后记
 
 除前述优化方法之外，还有一些零星的、未能实际应用的优化方法。比如：
 
@@ -237,7 +236,7 @@ class PreprocessResult {
 1. 先分析性能瓶颈，再对症下药。对于有经验的研发，这个过程可以适当地借助自己的经验法则。忌讳想当然的「优化」。
 2. 善用工具。比如Traceview、Memory Monitor、Hierarchy Viewer。本文所述的优化过程重度依赖这些工具。
 
-## 参考资料
+# 参考资料
 
 - [Traceview War Story](http://android-developers.blogspot.com/2010/10/traceview-war-story.html)
 - [Optimizing Your UI](http://developer.android.com/intl/zh-cn/tools/debugging/debugging-ui.html)

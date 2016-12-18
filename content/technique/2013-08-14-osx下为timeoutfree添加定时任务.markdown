@@ -2,8 +2,10 @@
 layout: post
 title:  osx下为timeoutfree添加定时任务
 date:   2013-08-14
+tags            : ["工具"]
+categories      : ["工具"]
+isCJKLanguage   : true
 published: false
-category: note
 ---
 
 　　我习惯使用休息提醒软件定时提醒我站起来扭扭腰，目前使用的是“Time Out Free”，挺好用的一款免费软件。

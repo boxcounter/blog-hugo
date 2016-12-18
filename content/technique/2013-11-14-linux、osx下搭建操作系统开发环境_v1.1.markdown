@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  linux、osx下搭建操作系统开发环境 v1.1
-date:   2013-11-14
-category: tech
+layout          : post
+title           : "linux、osx下搭建操作系统开发环境 v1.1"
+date            : 2013-11-14
+tags            : ["OS研发"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 

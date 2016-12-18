@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  卷的文件系统识别、卷的挂载以及路径解析
-date:   2011-10-25
-category: tech
+layout          : post
+title           : "卷的文件系统识别、卷的挂载以及路径解析"
+date            : 2011-10-25
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 前段时间琢磨文件过滤驱动的时候碰到一个棘手的问题，当时挂上wrk内核分析，发现了问题的关键点。分析的过程中明显感觉自己对IoMgr、ObjMgr、Fsd、Volume这些组件的结构关系掌握得很烂，于是最近这几天专门又挂上wrk内核，一点一点的追踪。有了一点收获，记录在这里，备忘。顺便也许会给一些朋友一点点帮助。

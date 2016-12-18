@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  一起疑似内存泄漏
-date:   2014-01-12
-category: tech
+layout          : post
+title           : "一起疑似内存泄漏"
+date            : 2014-01-12
+tags            : ["故障分析"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 上周遇到一起极其诡异的内存泄漏。现象是：  

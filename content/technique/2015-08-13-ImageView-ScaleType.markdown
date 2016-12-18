@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  ImageView.ScaleType 
-date:   2015-08-13
-category: note
+layout          : post
+title           : ImageView.ScaleType 
+date            : 2015-08-13
+tags            : ["Android", "Android:ImageView"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 开启了「Show layout bounds」。左侧是宽图、右侧是竖图：

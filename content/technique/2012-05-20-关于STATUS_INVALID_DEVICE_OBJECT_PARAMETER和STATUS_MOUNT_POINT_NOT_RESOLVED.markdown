@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  关于STATUS_INVALID_DEVICE_OBJECT_PARAMETER和STATUS_MOUNT_POINT_NOT_RESOLVED
-date:   2012-05-20
-category: tech
+layout          : post
+title           : "关于STATUS_INVALID_DEVICE_OBJECT_PARAMETER和STATUS_MOUNT_POINT_NOT_RESOLVED"
+date            : 2012-05-20
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 　　很久之前，我写了篇[关于STATUS_INVALID_DEVICE_OBJECT_PARAMETER的blog](http://www.boxcounter.com/showthread.php?tid=38)，里面提到使用STATUS_REPARSE的FsFilter（后简称为R-FsFilter）对上层FsFilter造成的恶劣干扰。

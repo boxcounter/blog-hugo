@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  有关IoEnumerateRegisteredFiltersList
-date:   2011-10-25
-category: tech
+layout          : post
+title           : "有关IoEnumerateRegisteredFiltersList"
+date            : 2011-10-25
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 有关于IoEnumerateRegisteredFiltersList

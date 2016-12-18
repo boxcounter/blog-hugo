@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  关于完成例程（Completion Routine）
-date:   2011-10-26
-category: tech
+layout          : post
+title           : 关于完成例程（Completion Routine）
+date            : 2011-10-26
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 通常使用完成例程有这么三步：

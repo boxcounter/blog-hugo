@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  有关STATUS_THREAD_IS_TERMINATING
-date:   2012-10-16
-category: tech
+layout          : post
+title           : 有关STATUS_THREAD_IS_TERMINATING
+date            : 2012-10-16
+tags            : ["故障分析"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 　　手头有个驱动，因为客户需求的原因，只在x86的2k3和xp系统上做过测试，今天在把它往x64 win7系统移植的时候遇到这么一个问题：  

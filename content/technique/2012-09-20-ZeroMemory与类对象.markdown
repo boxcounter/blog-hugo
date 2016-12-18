@@ -1,11 +1,13 @@
 ---
-layout: post
-title:  ZeroMemory与类对象
-date:   2012-09-20
-category: tech
+layout          : post
+title           : "ZeroMemory与类对象"
+date            : 2012-09-20
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
-　　今天看到一段同事的代码：  
+今天看到一段同事的代码：  
 
 {{< highlight cpp >}}
 ZeroMemory(&m_PacketInfo, sizeof(packet_info));
@@ -14,16 +16,16 @@ struct packet_info
 {
     string m_strModule;                 //模块
     string m_strProtocol;               //协议
-	string m_strClientHostIP;           //客户端IP
-	string m_strClientHostPort;			//客户端端口
+    string m_strClientHostIP;           //客户端IP
+    string m_strClientHostPort;         //客户端端口
     ...
 };
 {{< /highlight >}}
 
-　　按照我的经验，这种对类对象进行ZeroMemory或者memset的代码会导致程序崩掉。因为会覆盖掉类对象中的关键域，比如虚表。但是同事在vs2005中这样做却很正常。让我很奇怪，于是花了点时间分析了下。
+按照我的经验，这种对类对象进行ZeroMemory或者memset的代码会导致程序崩掉。因为会覆盖掉类对象中的关键域，比如虚表。但是同事在vs2005中这样做却很正常。让我很奇怪，于是花了点时间分析了下。
 
-　　首先，std::string的vc实现并没有虚表，如下：
-{{< highlight cpp >}}
+首先，std::string的vc实现并没有虚表，如下：
+```
 0:000> dt string
 QueueTest!string
    +0x000 _Myproxy         : Ptr32 std::_Container_proxy
@@ -33,13 +35,13 @@ QueueTest!string
    +0x01c _Alval           : std::allocator
    =00000000`01202180
    std::basic_string::npos : Uint4B
-{{< /highlight >}}
+```
 
-　　所以ZeroMemory后不会导致非法访问。
+所以ZeroMemory后不会导致非法访问。
 
-　　翻了一下std::string的实现，发现就是一普通的模板类，没有用到继承等OO特性。跟一普通的结构体和一系列配套函数的简单组合没太大区别。
+翻了一下std::string的实现，发现就是一普通的模板类，没有用到继承等OO特性。跟一普通的结构体和一系列配套函数的简单组合没太大区别。
 
-　　于是写了一小段测试代码
+于是写了一小段测试代码
 
 {{< highlight cpp >}}
 class Father
@@ -76,9 +78,10 @@ void main()
 {{< /highlight >}}
 
 
-　　我对这段代码的预期是，因为有继承以及虚函数，所以会有虚表。ZeroMemory会导致虚表被破坏，然后在第二次Show的时候非法访问。但实际运行效果依然正常。  
-　　于是检查了一下man的反汇编代码：
-{{< highlight nasm >}}
+我对这段代码的预期是，因为有继承以及虚函数，所以会有虚表。ZeroMemory会导致虚表被破坏，然后在第二次Show的时候非法访问。但实际运行效果依然正常。  
+
+于是检查了一下man的反汇编代码：
+```
 0:000:x86> uf main
 QueueTest!main:
 002fd120 push    ebp
@@ -104,16 +107,16 @@ QueueTest!main:
 002fd1c9 mov     esp,ebp
 002fd1cb pop     ebp
 002fd1cc ret
-{{< /highlight >}}
+```
 
 
-　　可以看出来，这段代码里根本就没有用到虚表，而是直接把内嵌函数地址。仔细琢磨琢磨，这样做确实有些道理：
+可以看出来，这段代码里根本就没有用到虚表，而是直接把内嵌函数地址。仔细琢磨琢磨，这样做确实有些道理：
 
 1. son是明确的Son类对象，son.Show是一个明确的函数，无需使用虚表进行间接调用。
 2. 效率更高。
 
-　　再想想什么时候才需要虚表呢？动态绑定。  
-　　于是改了改测试代码，如下（Father和Son的定义不变）：
+再想想什么时候才需要虚表呢？动态绑定。  
+于是改了改测试代码，如下（Father和Son的定义不变）：
 
 {{< highlight cpp >}}
 void main()
@@ -130,7 +133,7 @@ void main()
 
 
 　　看看反汇编码：
-{{< highlight nasm >}}
+```
 0:000:x86> uf main
 QueueTest!main:
 011ad120 push    ebp
@@ -169,9 +172,9 @@ QueueTest!main:
 011ad1e9 mov     esp,ebp
 011ad1eb pop     ebp
 011ad1ec ret
-{{< /highlight >}}
+```
 
-　　可以看到这次用了虚表。再运行，果然崩了。
+可以看到这次用了虚表。再运行，果然崩了。
 
-　　但是gcc的实现不同，于是最开始的那行ZeroMemory一跑就崩。
+但是gcc的实现不同，于是最开始的那行ZeroMemory一跑就崩。
 

@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  TEB KPCR GS in x64
-date:   2012-02-08
-category: tech
+layout          : post
+title           : "TEB KPCR GS in x64"
+date            : 2012-02-08
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 在x86中，如果折腾TEB或者KPCR，可能需要处理fs:[0x???]这样的地址，在x86中，咱们可以通过dg命令来手动查看：

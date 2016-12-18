@@ -1,8 +1,10 @@
 ---
-layout: post
-title:  64位系统的对齐问题
-date:   2012-10-25
-category: tech
+layout          : post
+title           : "64位系统的对齐问题"
+date            : 2012-10-25
+tags            : ["技术研究"]
+categories      : ["研发"]
+isCJKLanguage   : true
 ---
 
 　　今天在技术群里有位童鞋问了一个问题：
