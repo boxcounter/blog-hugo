@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : osx下搭建操作系统开发环境之64位交叉开发工具集（gcc+gdb）v1.0
 date            : 2013-11-08
 tags            : ["OS研发"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

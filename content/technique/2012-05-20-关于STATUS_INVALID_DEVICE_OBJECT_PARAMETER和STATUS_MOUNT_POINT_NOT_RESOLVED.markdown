@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "关于STATUS_INVALID_DEVICE_OBJECT_PARAMETER和STATUS_MOUNT_POINT_NOT_RESOLVED"
 date            : 2012-05-20
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

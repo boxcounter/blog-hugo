@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : 又一个内核资源泄漏样本
 date            : 2012-08-15
 tags            : ["故障分析"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

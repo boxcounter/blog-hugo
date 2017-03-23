@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : 灵异现象？
 date            : 2012-03-04
 tags            : ["故障分析"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

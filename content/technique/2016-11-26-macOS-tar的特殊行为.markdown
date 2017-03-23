@@ -1,9 +1,8 @@
 ---
-layout          : technique
 title           : "macOS tar的特殊行为"
 date            : 2016-11-26
 tags            : ["macOS", "tar"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

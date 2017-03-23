@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : ImageView.ScaleType 
 date            : 2015-08-13
-tags            : ["Android", "Android:ImageView"]
-categories      : ["研发"]
+tags            : ["Android", "ImageView"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

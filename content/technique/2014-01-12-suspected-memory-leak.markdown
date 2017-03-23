@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "一起疑似内存泄漏"
 date            : 2014-01-12
 tags            : ["故障分析"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

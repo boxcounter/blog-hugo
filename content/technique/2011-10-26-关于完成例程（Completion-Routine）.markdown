@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : 关于完成例程（Completion Routine）
 date            : 2011-10-26
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

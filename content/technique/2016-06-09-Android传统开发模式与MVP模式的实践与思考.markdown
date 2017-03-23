@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Android传统开发模式与MVP模式的实践与思考
 date:   2016-06-09
 draft: true

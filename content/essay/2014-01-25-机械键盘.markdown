@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  机械键盘之「Kinesis Contoured Advantage」
-date:   2014-01-25
-category: note
+title:      机械键盘之「Kinesis Contoured Advantage」
+date:       2014-01-25
+category:   "随笔"
 ---
 
 　　分享一点我的机械键盘体验。目前正在使用「Kinesis Contoured Advantage」。如图：

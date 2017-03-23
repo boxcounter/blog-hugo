@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : 关于将本层的IO_STACK_LOCATION拷贝到下一层的两种方法
 date            : 2007-12-10
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

@@ -1,9 +1,8 @@
 ---
-layout          : technique
 title           : "Android下列表视图的性能优化"
 date            : 2015-08-01
 tags            : ["Android"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

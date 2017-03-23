@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "SEH分析笔记（X86篇）"
 date            : 2011-10-19
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

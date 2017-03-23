@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "无锁数组"
 date            : 2012-01-15
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

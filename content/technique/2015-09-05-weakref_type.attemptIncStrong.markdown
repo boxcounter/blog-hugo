@@ -1,9 +1,8 @@
 ---
-layout          : technique
 title           : RefBase::weakref_type::attemptIncStrong的理解
 date            : 2015-09-05
 tags            : ["Android"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

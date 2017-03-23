@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  由《百年虚云》引发的一些唠叨
-date:   2012-05-08
-category: note
+title:      由《百年虚云》引发的一些唠叨
+date:       2012-05-08
+category:   "随笔"
 ---
 
 　　趁着五一假期，把年假请了回家探亲。

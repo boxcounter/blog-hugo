@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : osx下搭建操作系统开发环境之构建bochs v1.0
 date            : 2013-11-05
 tags            : ["OS研发"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

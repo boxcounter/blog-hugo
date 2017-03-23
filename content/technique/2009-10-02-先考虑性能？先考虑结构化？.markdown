@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "先考虑性能？先考虑结构化？"
 date            : 2009-10-02
 tags            : ["技术思考"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

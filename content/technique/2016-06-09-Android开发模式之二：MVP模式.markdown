@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Android开发模式之二：MVP模式
 date:   2016-06-09
 draft: true

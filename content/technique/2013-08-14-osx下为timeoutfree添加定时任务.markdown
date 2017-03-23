@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  osx下为timeoutfree添加定时任务
 date:   2013-08-14
 tags            : ["工具"]
-categories      : ["工具"]
+category        : "工具"
 isCJKLanguage   : true
 published: false
 ---

@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  mrcool充值记
-date:   2007-06-23
-category: note
+title:      mrcool充值记
+date:       2007-06-23
+category:   "随笔"
 ---
 
 今天中午，我陪mrcool同学去移动大厅为他新办的全球通号充值，过程颇为曲折、离奇，故写此一文讥之：

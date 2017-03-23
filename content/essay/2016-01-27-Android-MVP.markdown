@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Android下的MVP开发模式
 date:   2016-01-27
 draft:  true

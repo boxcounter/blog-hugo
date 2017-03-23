@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "《真实世界的经济学》读书笔记"
 date            : 2015-09-09
-tags            : ["读书笔记:经济学"]
-categories      : ["读书笔记"]
+tags            : ["读书笔记", "经济学"]
+category        : "读书笔记"
 isCJKLanguage   : true
 ---
 

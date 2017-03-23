@@ -1,8 +1,8 @@
 ---
-layout          : post
 title           : "2013读书小结"
 date            : 2014-01-01
-categories      : ["读书笔记"]
+tags            : ["读书笔记"]
+category        : "读书笔记"
 isCJKLanguage   : true
 ---
 

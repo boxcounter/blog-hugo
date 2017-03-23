@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  聊聊韩信
-date:   2010-01-07
-category: tech
+title:      聊聊韩信
+date:       2010-01-07
+category:   "随笔"
 ---
 
 床头放了一本《史记》，是我最喜欢的讲列传那本。这两天在看韩信，觉得他挺有故事的，值得八一八。

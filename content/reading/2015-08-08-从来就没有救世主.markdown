@@ -1,9 +1,8 @@
 ---
-layout      : post
 title       : "《从来就没有救世主》读书笔记"
 date        : 2015-08-08
-tags        : ["读书笔记:经济学"]
-categories  : ["读书笔记"]
+tags        : ["读书笔记", "经济学"]
+category    : "读书笔记"
 isCJKLanguage   : true
 ---
 

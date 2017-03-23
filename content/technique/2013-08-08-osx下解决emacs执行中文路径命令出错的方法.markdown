@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : osx下解决emacs执行中文路径命令出错的方法
 date            : 2013-08-12
 tags            : ["Emacs"]
-categories      : ["Emacs"]
+category        : "Emacs"
 isCJKLanguage   : true
 ---
 

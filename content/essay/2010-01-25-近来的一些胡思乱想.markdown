@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  近来的一些胡思乱想
-date:   2010-01-25
-category: note
+title:      近来的一些胡思乱想
+date:       2010-01-25
+category:   "随笔"
 ---
 
 # 金钱、选择、自然法则、文明？

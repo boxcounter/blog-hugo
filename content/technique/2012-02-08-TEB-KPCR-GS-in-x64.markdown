@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : "TEB KPCR GS in x64"
 date            : 2012-02-08
 tags            : ["技术研究"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

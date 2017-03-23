@@ -1,9 +1,8 @@
 ---
-layout          : post
 title           : VS2010编译regex库的问题
 date            : 2012-05-31
 tags            : ["故障分析"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

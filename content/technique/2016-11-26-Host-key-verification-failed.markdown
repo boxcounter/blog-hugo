@@ -1,9 +1,8 @@
 ---
-layout          : technique
 title           : "Host key verification failed的另类触发"
 date            : 2016-11-26
 tags            : ["SSH"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 

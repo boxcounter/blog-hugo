@@ -1,9 +1,8 @@
 ---
-layout          : technique
 title           : "baselineAligned属性"
 date            : 2015-09-01
 tags            : ["Android"]
-categories      : ["研发"]
+category        : "研发"
 isCJKLanguage   : true
 ---
 
