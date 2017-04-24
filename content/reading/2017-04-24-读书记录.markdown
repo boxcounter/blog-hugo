@@ -1,6 +1,6 @@
 ---
 title           : "读书记录"
-date            : 2017-03-23
+date            : 2017-04-24
 category        : "读书笔记"
 isCJKLanguage   : true
 ---
@@ -22,13 +22,15 @@ isCJKLanguage   : true
 -----|----|----|----|----:|----
 1 | 《貓咪這樣教，主人好快樂》 | 戴更基 | 01-04 | 7
 2 | 《The Go Programming Language》 | Alan Donovan/Bran W. Kernighan | 01-18 | 9
-3 | 《音乐小百科：乐理》| Hugo Pinksterboer/阳军 | 01-22 | 8
+3 | 《音乐小百科：乐理》| Hugo Pinksterboer/阳军 | 01-22 | 7
 4 | 《唐宋词十七讲：迦陵讲演集》| 叶嘉莹 | 02-25 | 8
 5 | 《腾讯传》| 吴晓波 | 03-07 | 6
 6 | 《大教堂与集市》| Eric S. Raymond/卫剑钒 | 03-13 | 7
 7 | 《别让猴子跳回背上》| William Oncken，Ⅲ/陈美岑 | 03-15 | 7
 8 | 《淘宝技术这十年》 | 子柳 | 03-22 | 6
-
+9 | 《帝国的惆怅：中国传统社会的政治与人性》 | 易中天 | 04-11 | 7
+10 | 《互联网创业核心技术：构建可伸缩的web应用》 | rtur Ejsmont/何坤、李智慧 | 04-12 | 8
+11 | 《NoSQL精粹》 | Pramod J·Sadalage、Martin Fowler/爱飞翔 | 04-24 | 7
 
 # 2016年
 
