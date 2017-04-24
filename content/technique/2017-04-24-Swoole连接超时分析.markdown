@@ -11,7 +11,7 @@ isCJKLanguage   : true
 
 我们的产品中使用[Swoole](http://www.swoole.com/)来构建长连接服务，用于C/S之间的实时数据交互。同时也编写了一个监控程序monitor来定时检查长连接服务的可用性。结构是这样的：
 
-<img src="/images/2017-04-24/1.png" width="600"/>
+<img src="/images/2017-04-24/1.png" width="480"/>
 
 不知从什么时候起，每天都会收到几封报警邮件，关键信息是这样的：
 
@@ -93,18 +93,18 @@ sudo sysctl -w net.core.somaxconn=8192
 
 monitor发送的那段内容，也就是报文6中的`Continuation`，的值是88:02:03:e8。查阅[RFC 6455](https://tools.ietf.org/html/rfc6455#section-7.4)，得知其含义是「正常关闭」：
 
-> The Close frame MAY contain a body (the "Application data" portion of
-> the frame) that indicates a reason for closing, such as an endpoint
-> shutting down, an endpoint having received a frame too large, or an
-> endpoint having received a frame that does not conform to the format
-> expected by the endpoint.  If there is a body, the first two bytes of
-> the body MUST be a 2-byte unsigned integer (in network byte order)
-> representing a status code with value /code/ defined in Section 7.4.
-> Following the 2-byte integer, the body MAY contain UTF-8-encoded data
-> with value /reason/, the interpretation of which is not defined by
-> this specification.
+> The Close frame MAY contain a body (the "Application data" portion of  
+> the frame) that indicates a reason for closing, such as an endpoint  
+> shutting down, an endpoint having received a frame too large, or an  
+> endpoint having received a frame that does not conform to the format  
+> expected by the endpoint.  If there is a body, the first two bytes of  
+> the body MUST be a 2-byte unsigned integer (in network byte order)  
+> representing a status code with value /code/ defined in Section 7.4.  
+> Following the 2-byte integer, the body MAY contain UTF-8-encoded data  
+> with value /reason/, the interpretation of which is not defined by  
+> this specification.  
 
-> 1000 indicates a normal closure, meaning that the purpose for which
+> 1000 indicates a normal closure, meaning that the purpose for which  
 > the connection was established has been fulfilled.
 
 也就是说，这个报文和正常保温序列中的报文124是相同的含义，都是关闭连接。只不过超时情况下，连接没有从HTTP(TCP)升级到WebSocket，所以Wireshark就当做普通的TCP报文显示了。
@@ -145,7 +145,8 @@ monitor发送的那段内容，也就是报文6中的`Continuation`，的值是8
 
 # 七、附录
 
-``` 使用netstat查看系统的TCP连接情况
+```bash
+# 使用netstat查看系统的TCP连接情况
 OUTPUT=/tmp/nst.log
 echo -n $( date "+%Y-%m-%d_%H:%M:%S" ) >> $OUTPUT
 echo -n " " >> $OUTPUT
@@ -153,7 +154,8 @@ netstat -n | awk 'BEGIN { OFS = " "; ORS = " " } /^tcp/ {++y[$NF]} END {for(w in
 echo "" >> $OUTPUT
 ```
 
-``` 使用netstat查看指定进程的TCP连接情况（记得要把第四行中的{keyword}换成进程的关键字）
+```bash
+# 使用netstat查看指定进程的TCP连接情况（记得要把第四行中的{keyword}换成进程的关键字）
 OUTPUT=/tmp/swcc.log
 echo -n $( date "+%Y-%m-%d_%H:%M:%S" ) >> $OUTPUT
 echo -n " " >> $OUTPUT
