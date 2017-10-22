@@ -1,6 +1,6 @@
 ---
 title           : "读书记录"
-date            : 2017-04-24
+date            : 2017-10-21
 category        : "读书笔记"
 isCJKLanguage   : true
 ---
@@ -32,6 +32,14 @@ isCJKLanguage   : true
 10 | 《互联网创业核心技术：构建可伸缩的web应用》 | rtur Ejsmont / 何坤、李智慧 | 04-12 | 8
 11 | 《NoSQL精粹》 | Pramod J·Sadalage、Martin Fowler / 爱飞翔 | 04-24 | 7
 12 | 《你凭什么做好互联网》 | 曹政 | 05-03 | 8
+13 | 《美的历程》 | 李泽厚 | 07-19 | 8
+14 | 《自控力》 | 凯利·麦格尼格尔 / 王岑卉 | 07-23 | 7
+15 | 《黄金时代》 | 王小波 | 08-07 | 7
+16 | 《High Performance MySQL 3rd》 | Baron Schwartz, Peter Zaitsev, Vadim Tkachenko | 08-15 | 9
+17 | 《笑傲江湖》 | 金庸 | 08-29 | 7
+18 | 《MySQL技术内幕：InnoDB存储引擎》 | 姜承尧 | 09-19 | 7
+19 | 《硅谷革命：成就苹果公司的疯狂往事》 | Andy Hertzfeld/薛命灯 | 10-09 | 7
+20 | 《经济思想史》 | Harry Landreth、David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/essay/2017-10-21-%e7%bb%8f%e6%b5%8e%e6%80%9d%e6%83%b3%e5%8f%b2/)
 
 # 2016年
 
@@ -67,7 +75,6 @@ isCJKLanguage   : true
 28 | 《大型网站技术架构》 | 李智慧 | 10-21 | 7
 29 | 《经济学原理：宏观经济学》 | N.Gregory Mankiw | 10-26 | 8 | [笔记](http://boxcounter.com/reading_notes/2016-10-26-%e7%bb%8f%e6%b5%8e%e5%ad%a6%e5%8e%9f%e7%90%86%ef%bc%9a%e5%ae%8f%e8%a7%82%e7%bb%8f%e6%b5%8e%e5%ad%a6/)
 30 | 《品人录》 | 易中天 | 12-08 | 8
-
 
 # 2015年
 
@@ -113,7 +120,6 @@ isCJKLanguage   : true
 38 | 《悠悠南北朝：宋齐北魏的纷争史》| 陈羡 | 11-16 | 7
 39 | 《悠悠南北朝：三国归隋的统一路》| 陈羡 | 12-07 | 7
 40 | 《纵横十六国》| 陈羡 | 12-31 | 7
-
 
 # 2014年
 

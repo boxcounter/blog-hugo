@@ -8,7 +8,7 @@ isCJKLanguage   : true
 
 下图是缩略版本，文末有清晰源图的链接。
 
-<img src="/images/2016-04-16/经济学原理：微观经济学.png"/>
+<img src="/images/2016-04-16/经济学原理：微观经济学.jpg"/>
 
 ---
 
