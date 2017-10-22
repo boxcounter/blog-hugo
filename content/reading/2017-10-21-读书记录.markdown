@@ -39,7 +39,7 @@ isCJKLanguage   : true
 17 | 《笑傲江湖》 | 金庸 | 08-29 | 7
 18 | 《MySQL技术内幕：InnoDB存储引擎》 | 姜承尧 | 09-19 | 7
 19 | 《硅谷革命：成就苹果公司的疯狂往事》 | Andy Hertzfeld/薛命灯 | 10-09 | 7
-20 | 《经济思想史》 | Harry Landreth、David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/essay/2017-10-21-%e7%bb%8f%e6%b5%8e%e6%80%9d%e6%83%b3%e5%8f%b2/)
+20 | 《经济思想史》 | Harry Landreth、David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/reading/2017-10-21-%E7%BB%8F%E6%B5%8E%E6%80%9D%E6%83%B3%E5%8F%B2/)
 
 # 2016年
 
