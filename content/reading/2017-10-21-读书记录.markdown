@@ -1,6 +1,6 @@
 ---
 title           : "读书记录"
-date            : 2017-10-21
+date            : 2017-11-13
 category        : "读书笔记"
 isCJKLanguage   : true
 ---
@@ -22,11 +22,11 @@ isCJKLanguage   : true
 -----|----|----|----|----:|----
 1 | 《貓咪這樣教，主人好快樂》 | 戴更基 | 01-04 | 7
 2 | 《The Go Programming Language》 | Alan Donovan、Bran W. Kernighan | 01-18 | 9
-3 | 《音乐小百科：乐理》| Hugo Pinksterboer/阳军 | 01-22 | 7
+3 | 《音乐小百科：乐理》| Hugo Pinksterboer / 阳军 | 01-22 | 7
 4 | 《唐宋词十七讲：迦陵讲演集》| 叶嘉莹 | 02-25 | 8
 5 | 《腾讯传》| 吴晓波 | 03-07 | 6
 6 | 《大教堂与集市》| Eric S. Raymond/卫剑钒 | 03-13 | 7
-7 | 《别让猴子跳回背上》| William Oncken，Ⅲ/陈美岑 | 03-15 | 7
+7 | 《别让猴子跳回背上》| William Oncken，Ⅲ / 陈美岑 | 03-15 | 7
 8 | 《淘宝技术这十年》 | 子柳 | 03-22 | 6
 9 | 《帝国的惆怅：中国传统社会的政治与人性》 | 易中天 | 04-11 | 7
 10 | 《互联网创业核心技术：构建可伸缩的web应用》 | rtur Ejsmont / 何坤、李智慧 | 04-12 | 8
@@ -38,8 +38,15 @@ isCJKLanguage   : true
 16 | 《High Performance MySQL 3rd》 | Baron Schwartz, Peter Zaitsev, Vadim Tkachenko | 08-15 | 9
 17 | 《笑傲江湖》 | 金庸 | 08-29 | 7
 18 | 《MySQL技术内幕：InnoDB存储引擎》 | 姜承尧 | 09-19 | 7
-19 | 《硅谷革命：成就苹果公司的疯狂往事》 | Andy Hertzfeld/薛命灯 | 10-09 | 7
+19 | 《硅谷革命：成就苹果公司的疯狂往事》 | Andy Hertzfeld / 薛命灯 | 10-09 | 7
 20 | 《经济思想史》 | Harry Landreth、David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/reading/2017-10-21-%E7%BB%8F%E6%B5%8E%E6%80%9D%E6%83%B3%E5%8F%B2/)
+21 | 《人类简史》 | Yuval Noah Harari / 林俊宏 | 10-30 | 9
+22 | 《亿级流量网站架构核心技术》 | 张开涛 | 10-30 | 6
+23 | 《美丽新世界》 | Aldous Leonard Huxley / 孙法理 | 11-01 | 8
+24 | 《构建之法》 | 邹欣 | 11-03 | 7
+25 | 《1984》| George Orwell / 董乐山 | 11-09 | 8
+26 | 《汽车为什么会跑》 | 陈新亚 | 11-12 | 7
+27 | 《动物庄园》 | George Orwell / 荣如德 | 11-13 | 7
 
 # 2016年
 
