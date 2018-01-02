@@ -21,7 +21,7 @@ isCJKLanguage   : true
 序号|书名|作译编者|读毕日期|评分|其他
 -----|----|----|----|----:|----
 1 | 《貓咪這樣教，主人好快樂》 | 戴更基 | 01-04 | 7
-2 | 《The Go Programming Language》 | Alan Donovan、Bran W. Kernighan | 01-18 | 9
+2 | 《The Go Programming Language》 | Alan Donovan, Bran W. Kernighan | 01-18 | 9
 3 | 《音乐小百科：乐理》| Hugo Pinksterboer / 阳军 | 01-22 | 7
 4 | 《唐宋词十七讲：迦陵讲演集》| 叶嘉莹 | 02-25 | 8
 5 | 《腾讯传》| 吴晓波 | 03-07 | 6
@@ -30,7 +30,7 @@ isCJKLanguage   : true
 8 | 《淘宝技术这十年》 | 子柳 | 03-22 | 6
 9 | 《帝国的惆怅：中国传统社会的政治与人性》 | 易中天 | 04-11 | 7
 10 | 《互联网创业核心技术：构建可伸缩的web应用》 | rtur Ejsmont / 何坤、李智慧 | 04-12 | 8
-11 | 《NoSQL精粹》 | Pramod J·Sadalage、Martin Fowler / 爱飞翔 | 04-24 | 7
+11 | 《NoSQL精粹》 | Pramod J·Sadalage, Martin Fowler / 爱飞翔 | 04-24 | 7
 12 | 《你凭什么做好互联网》 | 曹政 | 05-03 | 8
 13 | 《美的历程》 | 李泽厚 | 07-19 | 8
 14 | 《自控力》 | 凯利·麦格尼格尔 / 王岑卉 | 07-23 | 7
@@ -39,7 +39,7 @@ isCJKLanguage   : true
 17 | 《笑傲江湖》 | 金庸 | 08-29 | 7
 18 | 《MySQL技术内幕：InnoDB存储引擎》 | 姜承尧 | 09-19 | 7
 19 | 《硅谷革命：成就苹果公司的疯狂往事》 | Andy Hertzfeld / 薛命灯 | 10-09 | 7
-20 | 《经济思想史》 | Harry Landreth、David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/reading/2017-10-21-%E7%BB%8F%E6%B5%8E%E6%80%9D%E6%83%B3%E5%8F%B2/)
+20 | 《经济思想史》 | Harry Landreth, David C.Colander / 周文 | 10-21 | 9 | [笔记](http://boxcounter.com/reading/2017-10-21-%E7%BB%8F%E6%B5%8E%E6%80%9D%E6%83%B3%E5%8F%B2/)
 21 | 《人类简史》 | Yuval Noah Harari / 林俊宏 | 10-30 | 9
 22 | 《亿级流量网站架构核心技术》 | 张开涛 | 10-30 | 6
 23 | 《美丽新世界》 | Aldous Leonard Huxley / 孙法理 | 11-01 | 8
@@ -47,6 +47,15 @@ isCJKLanguage   : true
 25 | 《1984》| George Orwell / 董乐山 | 11-09 | 8
 26 | 《汽车为什么会跑》 | 陈新亚 | 11-12 | 7
 27 | 《动物庄园》 | George Orwell / 荣如德 | 11-13 | 7
+28 | 《月亮和六便士》 | William Somerset Maugham / 傅惟慈 | 11-15 | 8
+29 | 《Relational Database Index Design and the Optimizers》 | Tapio Lahdenmaki, Mike Leach | 11-20 | 8
+30 | 《罗生门》 | 芥川龙之介 / 楼适夷、文洁若、吕元明 | 11-28 | 7
+31 | 《SQL Antipatterns》 | Bill Karwin | 12-01 | 6
+32 | 《战国史》 | 杨宽 | 12-03 | 8
+33 | 《领域驱动设计（精简版）》| Abel Avran, Floyd Marinescu / 孙向晖、霍泰稳、李锟 | 12-07 | 7
+34 | 《沉默的大多数》 | 王小波 | 12-07 | 7
+35 | 《一只特立独行的猪》 | 王小波 | 12-21 | 7
+36 | 《中国智慧》| 易中天 | 12-30 | 7
 
 # 2016年
 
@@ -72,7 +81,7 @@ isCJKLanguage   : true
 18 | 《柏杨版资治通鉴（第35卷 儿皇帝·横挑强邻）》 | 司马光 / 柏杨 | 05-17 | 10
 19 | 《柏杨版资治通鉴（第36卷 高平之战·分裂尾声）》 | 司马光 / 柏杨 | 05-21 | 10
 20 | 《逻辑思维，只要五步》 | 下地宽也 | 06-02 | 6 | [笔记](http://boxcounter.com/essay/2016-06-04-%e9%80%bb%e8%be%91%e6%80%9d%e7%bb%b4%ef%bc%8c%e5%8f%aa%e8%a6%81%e4%ba%94%e6%ad%a5/)
-21 | 《Redis实战》 | Josiah L. Carlson/黄健宏  | 08-03 | 7 |
+21 | 《Redis实战》 | Josiah L. Carlson / 黄健宏  | 08-03 | 7 |
 22 | 《暗时间》 | 刘未鹏 | 08-20 | 6 |
 23 | 《我想重新解释历史》 | 吴思 | 08-21 | 7 |
 24 | 《设计原本》 | Frederick P. Brooks / 高博、朱磊、王海鹏 | 09-04 | 7 |
@@ -133,7 +142,7 @@ isCJKLanguage   : true
 序号|书名|作译编者|读毕日期|评分|其他
 -----|----|----|----|----:|----
 1 | 《代码大全》 | Steve McConnell | 1月 | 9 | 3rd
-2 | 《高效程序员的45个习惯：敏捷开发修炼之道》 | Venkat Subramaniam、Andy Hunt | 1月 | 8
+2 | 《高效程序员的45个习惯：敏捷开发修炼之道》 | Venkat Subramaniam, Andy Hunt | 1月 | 8
 3 | 《黑客与画家》 | Paul Graham  | 2月 | 7
 4 | 《代码的未来》 | 松本行弘 | 2月 | 6
 5 | 《MacTalk·人生元编程（纸版）》 | 池建强 | 2月 | 6
@@ -141,7 +150,7 @@ isCJKLanguage   : true
 7 | 《给你一个团队，你能怎么管？》 | 赵伟 | 03-07 | 5
 8 | 《程序员的职业素养》 | Robert C.Martin | 03-14 | 9
 9 | 《殷商玛雅征服史》 | 马伯庸 | 03-24 | 5
-10 | 《关键对话：如何高效能沟通》 | Kerry Patterson，Joseph Grenny、Ron McMillan | 03-26 | 8
+10 | 《关键对话：如何高效能沟通》 | Kerry Patterson, Joseph Grenny, Ron McMillan | 03-26 | 8
 11 | 《简约至上》 | Giles Colborne | 04-01 | 7
 12 | 《帝国最后的荣耀》 | 马伯庸/汗青 | 04-07 | 7
 13 | 《浪潮之巅（第一版）》 | 吴军 | 04-17 | 7
@@ -152,7 +161,7 @@ isCJKLanguage   : true
 18 | 《我读书少你可别骗我》 | 马伯庸 | 06-03 | 5
 19 | 《精益开发实战》 | Henrik Kniberg | 06-24 | 8
 20 | 《鬼吹灯（全）》 | 天下霸唱 | 06-29 | 6
-21 | 《重来:更为简单有效的商业思维》 | Jason Fried、David Heinemeier Hansson | 07-03 | 7
+21 | 《重来:更为简单有效的商业思维》 | Jason Fried, David Heinemeier Hansson | 07-03 | 7
 22 | 《悟空传·完美纪念版》 | 今何在 | 07-03 | 7
 23 | 《风起陇西》 | 马伯庸 | 07-07 | 7
 24 | 《一座城池》 | 韩寒 | 07-11 | 6
@@ -165,7 +174,7 @@ isCJKLanguage   : true
 31 | 《柏杨版资治通鉴（第24卷 黄金时代·武后夺权）》 | 司马光 / 柏杨 | 09-07 | 10
 32 | 《南明那些事儿》 | 洪兵 | 09-18 | 7
 33 | 《敏捷软件开发——原则、模式与实践》 | Robert C·Martin | 09-21 | 9
-34 | 《人件》 | Tom DeMarco、Timothy Lister | 09-28 | 9
+34 | 《人件》 | Tom DeMarco, Timothy Lister | 09-28 | 9
 35 | 《最简单的图形与最复杂的信息》 | 黄慧敏 | 10-09 | 7
 36 | 《敏捷武士——看敏捷高手交付卓越软件》 | Jonathan　Rasmusson | 10月 | 8
 37 | 《红顶商人胡雪岩》 | 高阳 | 12-09 | 8
