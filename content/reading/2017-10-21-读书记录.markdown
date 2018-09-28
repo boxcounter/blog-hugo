@@ -1,6 +1,6 @@
 ---
 title           : "读书记录"
-date            : 2018-07-09
+date            : 2018-09-28
 category        : "读书笔记"
 isCJKLanguage   : true
 ---
@@ -22,7 +22,7 @@ isCJKLanguage   : true
 -----|----|----|----|----:|----
 1 | 《青铜时代》 | 王小波 | 01-24 | ?
 2 | 《Domain-Driven Design》 | Eric Evans | 02-14 | 9
-3 | 《领域驱动开发》 | Eric Evans | 02-15 | 9
+3 | 《领域驱动设计》 | Eric Evans | 02-15 | 9
 4 | 《实现领域驱动设计》 | Vaughn Vernon / 滕云 | 03-06 | 9
 5 | 《中央财政密码》 | 郭建龙 | 04-01 | 8
 6 | 《企业应用架构模式》 | Martin Fowler / 王怀民、周斌 | 04-08 | 8
@@ -35,6 +35,14 @@ isCJKLanguage   : true
 13 | 《资治通鉴 第一册》 | 司马光 / 胡三省（音注） | 06-28 | 10
 14 | 《推荐系统实践》 | 项亮 | 06-29 | 7
 15 | 《程序员的数学》 | [日] 结城浩 / 管杰 | 07-09 | 6
+16 | 《重新定义团队：谷歌如何工作》 | Laszlo Bock / 宋伟 | 07-23 | 8
+17 | 《思维导图笔记整理术》 | 胡雅茹 | 07-25 | 6
+18 | 《优秀到不能被忽视》 | Newport / 张宝 | 08-18 | 7
+19 | 《The Go Programming Language》 | Alan Donovan, Bran W. Kernighan | 08-30 | 9 | 2rd
+20 | 《简约至上》 |  Giles Colborne / 李松峰、秦绪文  | 09-01 | 7
+21 | 《MySQL排错指南》 | Svet Smirnova / 李宏哲、杨挺 | 09-11 | 7
+22 | 《影响力》 | Dr. Robert Cialdini / 陈叙 | 7 | 09-18 | 7
+
 
 # 2017年
 
