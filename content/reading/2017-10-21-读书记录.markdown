@@ -41,7 +41,10 @@ isCJKLanguage   : true
 19 | 《The Go Programming Language》 | Alan Donovan, Bran W. Kernighan | 08-30 | 9 | 2rd
 20 | 《简约至上》 |  Giles Colborne / 李松峰、秦绪文  | 09-01 | 7
 21 | 《MySQL排错指南》 | Svet Smirnova / 李宏哲、杨挺 | 09-11 | 7
-22 | 《影响力》 | Dr. Robert Cialdini / 陈叙 | 7 | 09-18 | 7
+22 | 《影响力》 | Dr. Robert Cialdini / 陈叙 | 09-18 | 7
+23 | 《只为拍张好照片:懒家伙的摄影入门书》 | 叶梓 | 10-09 | 7
+24 | 《聊聊架构》 | 王概凯 | 10-19 | 6
+25 | 《中国兵史》 | 雷海宗 | 11-10 | 6
 
 
 # 2017年
