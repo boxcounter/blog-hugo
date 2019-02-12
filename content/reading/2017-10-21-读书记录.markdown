@@ -1,9 +1,24 @@
 ---
 title           : "读书记录"
-date            : 2018-09-28
+date            : 2019-02-08
 category        : "读书笔记"
 isCJKLanguage   : true
 ---
+
+<style>
+.markdown-body table td, .markdown-body table th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+  white-space: nowrap;
+}
+.col-xs-12,
+.col-md-8,
+.col-md-offset-2,
+.col-lg-6 {
+    margin-left: 10px;
+    max-width: 100%;
+}
+</style>
 
 记录我读完的书，从2014年开始记录。主要记录有点厚度的，薄手册和零散资料不记。
 
@@ -12,9 +27,21 @@ isCJKLanguage   : true
 评分|简述|举例
 -----|----|----
 9\~10 | 经典书籍，值得反复阅读 | 《史记》(10)、《TCP/IP详解》(10)
-7\~8 | 好书，可能再读 | 《大秦帝国》、《明朝那些事儿》、二月河的康雍乾
-6 | 读完有点收获，应该不会再读
+7\~8 | 好书，值得再读 | 《大秦帝国》、《明朝那些事儿》、二月河的康雍乾
+6 | 读完有点收获，不会再读
 
+
+# 2019年
+
+序号|书名|作译编者|读毕日期|评分|其他
+-----|----|----|----|----:|----
+1 | Python 3学习笔记（上卷）| 雨痕 | 01-08 | -
+2 | 这就是OKR | John Doerr | 01-14 | 6
+3 | 用户故事与敏捷方法 | Mike Cohn | 01-30 | 7
+4 | 硅谷增长黑客实战笔记 | 曲卉 | 01-31 | 7
+5 | UML和模式应用 | Craig Larman / 李洋、郑䶮 | 02-04 | 8 | [书评](http://boxcounter.com/reading/2019-02-04-applying-uml-and-patterns/)
+6 | 微服务设计 | Sam Newman / 崔力强、张俊 | 02-07 | 7 | [书评](http://boxcounter.com/reading/2019-02-07-building-microservices/)
+7 | 架构整洁之道 | Robert Martin / 孙宇聪 | 02-11 | 8 | [书评](http://boxcounter.com/reading/2019-02-12-clean-architecture/)
 
 # 2018年
 

@@ -4,4 +4,10 @@ title = "Boxcounter的烂笔头"
 pygmentsUseClasses = false
 pygmentsStyle = "vs"
 # pygmentsUseClassic=true
-theme = "hugo-bootswatch"
+#theme = "hugo-bootswatch"
+theme = "hugo-theme-yinyang"
+googleAnalytics = "UA-1017426-4"
+
+[author]
+  name = "Boxcounter"
+  homepage = "http://boxcounter.com/"
