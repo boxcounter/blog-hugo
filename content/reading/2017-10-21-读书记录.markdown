@@ -48,7 +48,9 @@ isCJKLanguage   : true
 11 | 数据密集型应用系统设计 | Martin Kleppmann / 赵军平、李三平、吕云松、耿煜 | 04-10 | 8
 12 | 少有人走的路 | Scott Peck / 于海生 | 05-11 | 7
 13 | 大数据日知录 | 张俊林 | 05-18 | 7
-14 | HBase不睡觉书| 杨曦 | 05-29 | -
+14 | 中国古代文化常识 | 王力 | 05-21 | 8
+15 | HBase不睡觉书| 杨曦 | 05-29 | -
+16 | The Old Man and the Sea | Ernest Hemingway | 05-29 | 8
 
 # 2018年
 
