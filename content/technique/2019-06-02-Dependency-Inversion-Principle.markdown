@@ -5,7 +5,7 @@ category        : "研发"
 isCJKLanguage   : true
 ---
 
-依赖倒置原则（**D**ependency **I**nversion **P**rinciple）是 Uncle Bob 提出的一个应用于 OOP 的原则。维基百科上对它的说明是这样的：
+依赖倒置原则（**D**ependency **I**nversion **P**rinciple）是 Uncle Bob 提出的一个 OOP 的原则。维基百科上对它的说明是这样的：
 
 > 该原则规定：  
 > 1. 高层次的模块不应该依赖于低层次的模块，两者都应该依赖于抽象接口。  
@@ -22,7 +22,7 @@ isCJKLanguage   : true
 伪码和之前几乎一样，但依赖关系发生了变化：Foo 依赖于同包的接口 Bar，而不是另一个包的实现类。这样做的实质是分离了依赖关系和调用关系：
 
 - 图一中，Foo 既依赖了 Bar，又调用了 Bar。
-- 图二中，Foo 仍依赖了 Bar（Foo 的实现代码里只出现 Bar），但调用的是 ConcreteBar（Foo 所需的功能由 ConcreteBar 实际提供）
+- 图二中，Foo 仍依赖了 Bar，但调用的是 ConcreteBar（Foo 所需的功能由 ConcreteBar 实际提供）
 
 那我们为什么需要将依赖关系和调用关系分离呢？为了降低耦合。
 
@@ -32,7 +32,7 @@ isCJKLanguage   : true
 
 在实现时，我们将结构分为两层：
 
-- 应用层 —— 负责处理业务逻辑层。对应图中的 Application 包。
+- 应用层 —— 负责处理业务逻辑。对应图中的 Application 包。
 - 基础设施层 —— 负责技术组件的具体实现。对应图中的 Infrastructure 包。
 
 此外，还用到了 Repository 设计模式：图中的 UserRepository 负责从 MySQL 中读取用户信息。
